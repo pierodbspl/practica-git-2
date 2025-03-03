@@ -1,0 +1,15 @@
+<!ELEMENT Instituto (Profesores, Alumnos)>
+<!ELEMENT Profesores (Profesor+)>
+<!ELEMENT Profesor (nombre, apellidos, email)>
+<!ELEMENT Alumnos (Alumno+)>
+<!ELEMENT Alumno (nombre, apellidos, nota, email, clases)>
+
+<!ATTLIST Profesor id ID #REQUIRED>
+<!ATTLIST Alumno dni ID #REQUIRED>
+<!ATTLIST clases id IDREFS #IMPLIED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT clases EMPTY>

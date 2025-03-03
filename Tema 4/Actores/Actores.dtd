@@ -1,0 +1,47 @@
+<!ELEMENT Cine (Peliculas, Actores, Directores)>
+<!ELEMENT Peliculas (Pelicula+)>
+<!ELEMENT Pelicula (Nombre, FechaEstreno)>
+<!ELEMENT Actores (Actor+)>
+<!ELEMENT Actor (Nombre, Sexo, FechaNacimiento, PaginaWeb, PeliculasHechas)>
+<!ELEMENT Directores (Director+)>
+<!ELEMENT Director (Nombre, Sexo, FechaNacimiento, PaginaWeb, PeliculasHechas)>
+
+<!ATTLIST Pelicula id ID #IMPLIED>
+<!ATTLIST Pelicula director IDREF #REQUIRED>
+<!ATTLIST Pelicula actor IDREFS #REQUIRED>
+<!ATTLIST Actor id ID #REQUIRED>
+<!ATTLIST Director id ID #REQUIRED>
+<!ATTLIST PeliculasHechas id IDREFS #IMPLIED>
+
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Sexo (#PCDATA)>
+<!ELEMENT FechaEstreno (#PCDATA)>
+<!ELEMENT FechaNacimiento (#PCDATA)>
+<!ELEMENT PaginaWeb (#PCDATA)>
+<!ELEMENT PeliculasHechas EMPTY>
+
+
+
+
+<!-- 
+ELEMENTOS:
+niguno -> Uno obligatorio y solo puede ser uno
+? -> Opcionales
+* -> 0 o varios
++ -> 1 o varios
+, -> Indica secuencia, el orden importa
+| -> contenido alternativo
+
+TIPO DE ELEMENTOS:
+#PCDATA -> Datos
+EMPTY -> Elementos vacíos
+
+TIPO DE ATRIBUTOS:
+IDREF -> Referencia un ID
+IDREFS -> Referencia uno o más IDs
+
+VALOR DEL ATRIBUTO:
+#REQUIRED -> Valor obligatorio
+#IMPLIED -> Opcional
+-->

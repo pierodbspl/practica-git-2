@@ -1,0 +1,36 @@
+{
+    "Actores":[
+        {
+            "id" : "51",
+            "nombre": "Elisabeth Sue",
+            "sexo": "Mujer",
+            "fechaNacimiento" : "17/10/1990",
+            "paginaWeb": "en.wikipedia.org/wiki/Elisabeth_Sue"
+        },
+        {
+            "id" : "52",
+            "nombre": "Val Kilmer",
+            "sexo": "Hombre",
+            "fechaNacimiento" : "31/12/1959",
+            "paginaWeb": "www.valkilmer.com"
+        },
+        {
+            "id" : "53",
+            "nombre": "Peter Sellers",
+            "sexo": "Hombre",
+            "fechaNacimiento" : "13/11/1948",
+            "paginaWeb": "www.PeterSellers.com"
+
+        },
+        {
+            "id" : "139",
+            "nombre": "Johnny Depp",
+            "sexo": "Hombre",
+            "fechaNacimiento" : "17/10/1965",
+            "paginaWeb": "www.johnnydeppweb"
+        }
+    ]
+}
+
+
+

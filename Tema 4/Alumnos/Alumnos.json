@@ -1,0 +1,7 @@
+{ "Alumnos" : [
+    {"dni":"D-75521800", "nombre":"Gabriel", "apellidos":"Villar","nota":"8",
+    "email":"gabivicos@gmail.com"},
+    {"dni":"D-76543239-J", "nombre":"Victoria", "apellidos":"Monasterio", "nota":"10",
+    "email":"monasterio@gmail.com"
+    }
+]}

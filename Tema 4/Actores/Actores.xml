@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cine SYSTEM "Actores.dtd">
+
+<Cine>
+
+    <Peliculas>
+
+        <Pelicula id="p1" director="D12" actor="A12">
+            <Nombre>El Quinto Elemento</Nombre>
+            <FechaEstreno>03/04/1997</FechaEstreno>
+        </Pelicula>
+
+        <Pelicula id="p2" director="D52" actor="A52">
+            <Nombre>El Diablo Metió la Mano</Nombre>
+            <FechaEstreno>12/08/1998</FechaEstreno>
+        </Pelicula>
+
+        <Pelicula id="p3" director="D15" actor="A52">
+            <Nombre>La Milla Verde</Nombre>
+            <FechaEstreno>02/04/2000</FechaEstreno>
+        </Pelicula>
+
+        <Pelicula id="p4" director="D12" actor="A54">
+            <Nombre>Ali-G Anda Suelto</Nombre>
+            <FechaEstreno>25/05/2002</FechaEstreno>
+        </Pelicula>
+
+    </Peliculas>
+
+    <Actores>
+
+        <Actor id="A51">
+            <Nombre>Tom Hanks</Nombre>
+            <Sexo>Mujer</Sexo>
+            <FechaNacimiento>09/07/1956</FechaNacimiento>
+            <PaginaWeb></PaginaWeb>
+            <PeliculasHechas/>
+        </Actor>
+
+        <Actor id="A52">
+            <Nombre >Devon Sawa</Nombre>
+            <Sexo>Hombre</Sexo>
+            <FechaNacimiento>31/12/1986</FechaNacimiento>
+            <PaginaWeb>www.devonsito.com</PaginaWeb>
+            <PeliculasHechas id="p2"/>
+        </Actor>
+
+        <Actor id="A54">
+            <Nombre >Sacha Baron Cohen</Nombre>
+            <Sexo>Hombre</Sexo>
+            <FechaNacimiento>31/12/1979</FechaNacimiento>
+            <PaginaWeb>www.wsmith.com</PaginaWeb>
+            <PeliculasHechas id="p4"/>
+        </Actor>
+
+        <Actor id="A12">
+            <Nombre >Gary Oldman</Nombre>
+            <Sexo>Hombre</Sexo>
+            <FechaNacimiento>31/12/1963</FechaNacimiento>
+            <PaginaWeb>www.garyfukingamo.com</PaginaWeb>
+            <PeliculasHechas id="p1"/>
+        </Actor>
+
+    </Actores>
+
+    <Directores>
+        
+        <Director id="D52">
+            <Nombre>Rodman Flender</Nombre>
+            <Sexo>Hombre</Sexo>
+            <FechaNacimiento>31/12/1978</FechaNacimiento>
+            <PaginaWeb>www.superdirector52.com</PaginaWeb>
+            <PeliculasHechas/>
+        </Director>
+
+        <Director id="D12">
+            <Nombre>Luc Besson</Nombre>
+            <Sexo>Hombre</Sexo>
+            <FechaNacimiento>31/12/1963</FechaNacimiento>
+            <PaginaWeb>www.superdirector12.com</PaginaWeb>
+            <PeliculasHechas/>
+        </Director>
+
+        <Director id="D15">
+            <Nombre>Frank Darabont</Nombre>
+            <Sexo>Hombre</Sexo>
+            <FechaNacimiento>31/12/1947</FechaNacimiento>
+            <PaginaWeb>www.superdirector12.com</PaginaWeb>
+            <PeliculasHechas/>
+        </Director>
+
+        <Director id="D31">
+            <Nombre>Mark Mylod</Nombre>
+            <Sexo>Hombre</Sexo>
+            <FechaNacimiento>31/12/1947</FechaNacimiento>
+            <PaginaWeb>www.superdirector12.com</PaginaWeb>
+            <PeliculasHechas/>
+        </Director>
+    
+    </Directores>
+</Cine>

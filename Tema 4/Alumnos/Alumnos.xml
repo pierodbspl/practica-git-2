@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Instituto SYSTEM "Alumnos.dtd">
+
+<Instituto>
+
+    <Profesores>
+        
+        <Profesor id="P1">
+            <nombre>Gabriel</nombre>
+            <apellidos>Villar</apellidos>
+            <email>gabivicos@gmail.com</email>
+        </Profesor>
+    
+        <Profesor id="P7">
+            <nombre>Gabriel</nombre>
+            <apellidos>Villar</apellidos>
+            <email>gabivicos@gmail.com</email>
+        </Profesor>
+
+    </Profesores>
+    
+    
+    <Alumnos>
+
+        <Alumno dni="D-75521800-T">
+            <nombre>Gabriel</nombre>
+            <apellidos>Villar</apellidos>
+            <nota>8</nota>
+            <email>gabivicos@gmail.com</email>
+            <clases id="P1"/>
+        </Alumno>
+
+        <Alumno dni="D-76543239-J">
+            <nombre >Victoria</nombre>
+            <apellidos>Monasterio</apellidos>
+            <nota>10</nota>
+            <email>vmonasteerio@gmail.com</email>
+            <clases id="P1 P7"/>
+        </Alumno>
+    
+    </Alumnos>
+    
+    
+
+</Instituto>
